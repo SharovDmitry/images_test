@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  include SessionsDoc
+
   skip_before_action :check_auth_token
 
   def create

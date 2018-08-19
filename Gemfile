@@ -42,6 +42,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'active_model_serializers'
+gem 'apipie-rails'
 gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'carrierwave-mongoid'

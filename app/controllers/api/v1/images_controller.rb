@@ -1,4 +1,6 @@
 class Api::V1::ImagesController < ApplicationController
+  include ImagesDoc
+
   before_action :find_image, only: :update
 
   def index

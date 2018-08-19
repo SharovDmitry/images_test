@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       resources :images, only: [:index, :create, :update]
     end
   end
+
+  apipie
 end
